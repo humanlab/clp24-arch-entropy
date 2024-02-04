@@ -7,28 +7,28 @@
 # 0. Prepare data (see readme, requires some initial steps and processing the official CLPsych data)
 python prepare_data.py
 
-# # 1. Finetune each model. Our shared task systems only used LMs finetuned on SuicideWatch posts.
-# python finetune.py --train_group no_risk_sw;
-# python finetune.py --train_group low_risk_sw;
-# python finetune.py --train_group moderate_risk_sw;
-# python finetune.py --train_group high_risk_sw;
-# python finetune.py --train_group any_risk_sw; 
+# 1. Finetune each model. Our shared task systems only used LMs finetuned on SuicideWatch posts.
+python finetune.py --train_group no_risk_sw;
+python finetune.py --train_group low_risk_sw;
+python finetune.py --train_group moderate_risk_sw;
+python finetune.py --train_group high_risk_sw;
+python finetune.py --train_group any_risk_sw; 
 
 # 2. (optional) Plot losses.
 python plot_loss.py;
 
-# # 3. Compute entropies
-# #   a. compute token entropies from each group model on their own test data
-# python compute_entropy.py --train_group no_risk_sw --test_group no_risk_sw;
-# python compute_entropy.py --train_group any_risk_sw --test_group any_risk_sw;
-# python compute_entropy.py --train_group low_risk_sw --test_group low_risk_sw;
-# python compute_entropy.py --train_group moderate_risk_sw --test_group moderate_risk_sw;
-# python compute_entropy.py --train_group high_risk_sw --test_group high_risk_sw;
-# #   b. compute token entropies from each group model on any risk data
-# python compute_entropy.py --train_group no_risk_sw --test_group any_risk_sw;
-# python compute_entropy.py --train_group low_risk_sw --test_group any_risk_sw;
-# python compute_entropy.py --train_group moderate_risk_sw --test_group any_risk_sw;
-# python compute_entropy.py --train_group high_risk_sw --test_group any_risk_sw;
+# 3. Compute entropies
+#   a. compute token entropies from each group model on their own test data
+python compute_entropy.py --train_group no_risk_sw --test_group no_risk_sw;
+python compute_entropy.py --train_group any_risk_sw --test_group any_risk_sw;
+python compute_entropy.py --train_group low_risk_sw --test_group low_risk_sw;
+python compute_entropy.py --train_group moderate_risk_sw --test_group moderate_risk_sw;
+python compute_entropy.py --train_group high_risk_sw --test_group high_risk_sw;
+#   b. compute token entropies from each group model on any risk data
+python compute_entropy.py --train_group no_risk_sw --test_group any_risk_sw;
+python compute_entropy.py --train_group low_risk_sw --test_group any_risk_sw;
+python compute_entropy.py --train_group moderate_risk_sw --test_group any_risk_sw;
+python compute_entropy.py --train_group high_risk_sw --test_group any_risk_sw;
 
 
 # 4. make dataframe of sentence entropies
