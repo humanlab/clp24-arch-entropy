@@ -1,13 +1,3 @@
-# clp24-arch-entropy
-Code used in our paper: Archetypes and Entropy: Theory-Driven Extraction of Evidence for Suicide Risk. Our submission for CLPsych 2024 Shared Task A and B.
-
-Each directory description
-
-* Task A:
-
-* Task B: 
-
-
 ## Relative entropy pipeline
 
 All code is in the [relative-entropy](./relative-entropy/) directory. There is a script that will run the full pipeline: [run_entropy_pipeline.sh](./relative-entropy/run_entropy_pipeline.sh) (see steps 0 and 1 below before running it). The section below describes each step.
