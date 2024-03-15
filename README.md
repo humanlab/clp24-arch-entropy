@@ -1,4 +1,4 @@
-# clp24-arch-entropy
+# Archetypes and Entropy: Theory-Driven Extraction of Evidence for Suicide Risk
 Code used in our paper: Archetypes and Entropy: Theory-Driven Extraction of Evidence for Suicide Risk. Our submission for CLPsych 2024 Shared Task A and B.
 
 ## Archetypes
