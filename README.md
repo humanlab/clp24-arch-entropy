@@ -1,9 +1,9 @@
 # Archetypes and Entropy: Theory-Driven Extraction of Evidence for Suicide Risk
 Code used in our paper: Archetypes and Entropy: Theory-Driven Extraction of Evidence for Suicide Risk. Our submission for CLPsych 2024 Shared Task A and B.
 
-## Archetypes
 
-# Archetypes!
+
+## Archetypes!
 
 This is a library developed to run what might be called a "souped-up dictionary method" for psychological text analysis. Or any kind of text analysis, really.
 
@@ -11,14 +11,14 @@ The core idea behind *Archetypes* is that you pre-define a set of prototypical s
 
 *Note*: For the curious: no, this approach not inspired by anything [Jungian](https://en.wikipedia.org/wiki/Jungian_archetypes) in nature. In the past, I've [said a few things](https://www.tandfonline.com/doi/full/10.1080/1047840X.2019.1633122?casa_token=cnHLr5uwiXUAAAAA:ACUCFK4tC9HXBBMlfhIFjfPxWLuCEK7owT3z_IBv2rZUa35fq4Z_rVkETqGO0wa1FqYjbmgxcRWxnw) about Jungian archetypes that have inspired scholars to write more than a few frustrated e-mails to me. Apologies to the Jungians.
 
-# Installation
+### Installation
 
 This package is easily installable via pip via the following command:
 
 `pip install archetyper`
 
 
-# Requirements
+### Requirements
 If you want to run the library without `pip` installing as shown above, you will need to first install the following packages:
 - `numpy`
 - `tqdm`
@@ -32,7 +32,7 @@ You can try to install these all in one go by running the following command from
 
 
 
-# Examples
+### Examples
 
 I have provided an example notebook in this repo that walks through the basic process of using this library, along with demonstrations of a few important "helper" functions to help you evaluate the statistical/psychometric qualities of your archetypes.
 
