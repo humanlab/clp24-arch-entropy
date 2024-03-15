@@ -1,0 +1,4 @@
+[submodule "archetypes"]
+	path = archetypes
+	url = git@github.com:ryanboyd/archetypes.git
+	branch =  main
