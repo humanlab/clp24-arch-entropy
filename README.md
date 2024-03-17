@@ -236,15 +236,40 @@ All code is in the [relative-entropy](./relative-entropy/) directory. There is a
 
 This method is originally described in the following forthcoming paper:
 ```
-@inproceedings{varadarajan_archetypes_2024,
-	address = {St. Julians, Malta},
-	title = {Archetypes and {Entropy}: {Theory}-{Driven} {Extraction} of {Evidence} for {Suicide} {Risk}},
-	booktitle = {Proceedings of the {Tenth} {Workshop} on {Computational} {Linguistics} and {Clinical} {Psychology}},
-	publisher = {Association for Computational Linguistics},
-	author = {Varadarajan, Vasudha and Lahnala, Allison and Ganesan, Adithya V. and Dey, Gourab and Mangalik, Siddharth and Bucur, Ana-Maria and Soni, Nikita and Rao, Rajath and Lanning, Kevin and Vallejo, Isabella and Flek, Lucie and Schwartz, H. Andrew and Welch, Charles and Boyd, Ryan L.},
-	year = {2024},
+@inproceedings{varadarajan-etal-2024-archetypes,
+    title = "Archetypes and Entropy: Theory-Driven Extraction of Evidence for Suicide Risk",
+    author = "Varadarajan, Vasudha  and
+      Lahnala, Allison  and
+      V Ganesan, Adithya  and
+      Dey, Gourab  and
+      Mangalik, Siddharth  and
+      Bucur, Ana-Maria  and
+      Soni, Nikita  and
+      Rao, Rajath  and
+      Lanning, Kevin  and
+      Vallejo, Isabella  and
+      Flek, Lucie  and
+      Schwartz, H. Andrew  and
+      Welch, Charles  and
+      Boyd, Ryan",
+    editor = "Yates, Andrew  and
+      Desmet, Bart  and
+      Prud{'}hommeaux, Emily  and
+      Zirikly, Ayah  and
+      Bedrick, Steven  and
+      MacAvaney, Sean  and
+      Bar, Kfir  and
+      Ireland, Molly  and
+      Ophir, Yaakov",
+    booktitle = "Proceedings of the 9th Workshop on Computational Linguistics and Clinical Psychology (CLPsych 2024)",
+    month = mar,
+    year = "2024",
+    address = "St. Julians, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.clpsych-1.28",
+    pages = "278--291",
 }
+
 ```
 
-The citation above will be updated once the paper is actually published 😊
     
